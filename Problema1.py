@@ -40,3 +40,9 @@ if __name__ == "__main__":
         .divide(4)
         .get_result()
     )
+
+    print("--------------------------------")
+
+    c2 = Calculator2(5)
+    c2.add(3).multiply(2).divide(4).sqrt()
+    print(c2.get_result())
